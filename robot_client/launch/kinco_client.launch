@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="robot_client" type="robot_client" name ="" output="screen"/>
+    <param name="useKinco" type="bool" value="true"/>                       <!--True for Select Kinco motor and False for Moons motor-->
+</launch>
